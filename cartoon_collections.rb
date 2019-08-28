@@ -15,6 +15,7 @@ def find_the_cheese(cheese_arr)
   cheese_arr.each do |word|
     if cheese_types.include?(word)
       puts word
+      break
     else
       return nil
   end
