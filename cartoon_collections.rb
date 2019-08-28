@@ -14,8 +14,7 @@ def find_the_cheese(cheese_arr)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_arr.each do |word|
     if cheese_types.include?(word)
-      puts word
-      break
+      return word
     else
       return nil
   end
